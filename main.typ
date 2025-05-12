@@ -22,7 +22,7 @@
   #title([#experienceDict.title])
   #for experience in experienceDict.content [
     *#experience.company* #h(1fr) *#experience.location* \
-    #experience.role #h(1fr) #experience.period \
+    *#experience.role* #h(1fr) #experience.period \
     #for task in experience.tasks [
       - #task
     ]

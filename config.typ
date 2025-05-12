@@ -8,8 +8,8 @@
 
   #show link: underline
 
-  #set page(margin: (x: 0.9cm, y: 1.3cm))
-  #set par(justify: true)
+  #set page(margin: (x: 1.27cm, y: 1.3cm))
+  #set par(justify: false)
   #set list(marker: [-])
   #set text(font: "calibri") // Use a font installed in your SO
 
