@@ -12,7 +12,7 @@
     es: [Rol],
     en: [Role],
   )),
-  period: [2025-01 – 2025-01],
+  period: [01/2025 – 01/2025],
   tasks: (
     translate((
       es: [
@@ -72,7 +72,7 @@
     es: [Rol],
     en: [Role],
   )),
-  period: [2025-01 – 2025-01],
+  period: [01/2025 – 01/2025],
   tasks: (
     translate((
       es: [
@@ -124,7 +124,7 @@
     es: [Rol],
     en: [Role],
   )),
-  period: [2025-01 – 2025-01],
+  period: [01/2025 – 01/2025],
   tasks: (
     translate((
       es: [

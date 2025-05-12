@@ -15,7 +15,7 @@
     es: [Bachiller en Ingeniería de Software],
     en: [Bachelor of Software Engineering],
   )),
-  period: [2025-01],
+  period: [01/2025],
 )
 
 #let educationList = (institution1,)
