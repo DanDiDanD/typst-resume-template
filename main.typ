@@ -1,10 +1,16 @@
 #import "config.typ": document
-#import "utils.typ": title
+#import "utils.typ": title, translate
 #import "content/index.typ": resumeDict, experienceDict, educationDict, skillsDict
+
+#let jobTitle = translate((
+  es: "Desarrollador Frontend",
+  en: "Frontend Development",
+))
 
 #show: document[
   = First Name Last Name
 
+  * #jobTitle * \
   City, Country |
   #link("https://www.linkedin.com")[linkedin.com] |
   (+01) 999 999 999 |
