@@ -11,7 +11,7 @@
   email\@test.com
 
   #title([#resumeDict.title])
-  _ #resumeDict.content _
+  #resumeDict.content
 
   #title([#experienceDict.title])
   #for experience in experienceDict.content [

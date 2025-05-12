@@ -11,7 +11,7 @@
   #set page(margin: (x: 0.9cm, y: 1.3cm))
   #set par(justify: true)
   #set list(marker: [-])
-  #set text(font: "STIX Two Text") // Use a font installed in your SO
+  #set text(font: "calibri") // Use a font installed in your SO
 
   #body
 ]
