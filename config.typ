@@ -8,7 +8,7 @@
 
   #show link: underline
 
-  #set page(margin: (x: 1.27cm, y: 1.3cm))
+  #set page(margin: (x: 1.28cm, y: 1.3cm))
   #set par(justify: false)
   #set list(marker: [-])
   #set text(font: "calibri") // Use a font installed in your SO

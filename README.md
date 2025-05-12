@@ -2,7 +2,7 @@
 
 A clean and modular CV template built with [Typst](https://typst.app/), supporting multi-language content, consistent styling, and PDF export automation.
 
-This template is also designed to be **ATS-friendly** — ensuring your exported PDF can be correctly parsed by automated resume screening systems.
+This template is also designed to be **ATS-friendly** (tested with [JobScan](https://www.jobscan.co/)) — ensuring your exported PDF can be correctly parsed by automated resume screening systems.
 
 ## ⚙️ Requirements
 
