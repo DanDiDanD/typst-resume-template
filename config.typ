@@ -1,4 +1,4 @@
-#let lang = "en" // es | en
+#let lang = "es" // es | en
 
 #let document(body) = [
   #show heading: it => {
@@ -11,7 +11,7 @@
   #set page(margin: (x: 1.28cm, y: 1.3cm))
   #set par(justify: false)
   #set list(marker: [-])
-  #set text(font: "calibri") // Use a font installed in your SO
+  #set text(font: "calibri", size: 11pt) // Use a font installed in your SO
 
   #body
 ]
