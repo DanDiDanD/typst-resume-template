@@ -5,6 +5,11 @@
   en: [Professional experience],
 )
 
+#let presentLabel = translate((
+  es: [Presente],
+  en: [Present],
+))
+
 #let company1 = (
   company: [Company 01],
   location: [City, Country],
@@ -12,7 +17,7 @@
     es: [Rol],
     en: [Role],
   )),
-  period: [01/2025 – 01/2025],
+  period: [01/2025 - #presentLabel],
   description: translate((
     es: [
       - Desarrollé multiples sistemas *web* y *mobiles* en *simultaneo* aplicando principios de diseño *responsive* y *mobile-first*, utilizando tecnologías como *JavaScript, TypeScript, React, React-Native, RESTful, Python* y *Django*, bajo la metodología ágil *Scrum* con herramientas como Jira y Bitbucket.
@@ -40,7 +45,7 @@
     es: [Rol],
     en: [Role],
   )),
-  period: [01/2025 – 01/2025],
+  period: [01/2025 - 01/2025],
   description: translate((
     es: [
       - Desarrollé *aplicaciones web* responsivas con *JavaScript, TypeScript, React, Angular, Next.js y RESTful APIs* bajo metodologías ágil *Scrum*, implementando *GitFlow* para garantizar entregas eficientes y código mantenible.
@@ -66,7 +71,7 @@
     es: [Rol],
     en: [Role],
   )),
-  period: [01/2025 – 01/2025],
+  period: [01/2025 - 01/2025],
   description: translate((
     es: [
       - Diseñé y desarrollé aplicaciones web y de escritorio para el control de asistencia y gestión de planillas utilizando *JavaScript, React y Node.js*, participando en el análisis de requerimientos con stakeholders y aplicando la metodología ágil SCRUM
@@ -85,13 +90,13 @@
 )
 
 // #let template = (
-//   company: "your company",
-//   location: "location, country",
+//   company: [your company],
+//   location: [location, country],
 //   role: translate((
-//     es: "role in spanish",
-//     en: "role in english",
+//     es: [role in spanish],
+//     en: [role in english],
 //   )),
-//   period: "year-month – year-month",
+//   period: [year-month – year-month],
 //   description: translate((
 //     es: [- description in *spanish*],
 //     en: [- description in *english*],

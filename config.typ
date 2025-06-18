@@ -1,4 +1,4 @@
-#let lang = "es" // es | en
+#let lang = "en" // es | en
 
 #let document(body) = [
   #show heading: it => {

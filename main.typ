@@ -1,10 +1,10 @@
 #import "config.typ": document
 #import "utils.typ": title, translate
-#import "content/index.typ": resumeDict, experienceDict, educationDict, skillsDict
+#import "content/index.typ": resumeDict, experienceDict, educationAndCertificationsDict, skillsDict
 
 #let jobTitle = translate((
-  es: "Desarrollador Frontend",
-  en: "Frontend Development",
+  es: [Desarrollador Frontend],
+  en: [Frontend Development],
 ))
 
 #show: document[
@@ -26,12 +26,14 @@
     #experience.description
   ]
 
-  #title([#educationDict.title])
-  #for education in educationDict.content [
-    *#education.institution* #h(1fr) *#education.location* \
-    #education.role #h(1fr) #education.period \
-  ]
+  #title([#educationAndCertificationsDict.title])
+  #for institution in educationAndCertificationsDict.content [
+    *#institution.name* #h(1fr) *#institution.location* \
+    #for role in institution.roles [
+      #role.title #h(1fr) #role.period \
+    ]
 
+  ]
   #title([#skillsDict.title])
   #for skill in skillsDict.content [
     *#skill.title*: #skill.content \
