@@ -22,7 +22,7 @@
       en: [Technologies],
     )),
     content: [
-      Javascript, React, Angular, Typescript, Next.js, React Native, Expo, Python, Django, HTML, CSS, SASS, Bootstrap, Tailwind, Ant Design, Electron, Vite, Webpack, Responsive, NodeJs, Express, Hooks, ReactDOM, React Query, React Aria, Axios, Websockets, WebRTC, RJSF, REST API, Eslint, Prettier, Git, Docker, Bitbucket, Jira, Sentry, Figma, SCRUM, Jest, Redux, Bash.
+      Javascript, React, Angular, Typescript, Next.js, React Native, Expo, Python, Django, HTML, CSS, SASS, Bootstrap, Tailwind, Ant Design, Electron, Vite, Webpack, Responsive, NodeJs, Express, Hooks, React Query, React Aria, Axios, Websockets, WebRTC, RJSF, REST API, Eslint, Prettier, Git, Docker, Bitbucket, Sentry, SCRUM, Jest.
     ],
   ),
 )

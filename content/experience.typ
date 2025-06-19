@@ -51,7 +51,6 @@
       - Desarrollé *aplicaciones web* responsivas con *JavaScript, TypeScript, React, Angular, Next.js y RESTful APIs* bajo metodologías ágil *Scrum*, implementando *GitFlow* para garantizar entregas eficientes y código mantenible.
       - Diseñé y optimicé sistemas de componentes reutilizables y formularios avanzados utilizando *Formik* y *Reack Hook Form*, mejorando la consistencia y reduciendo el tiempo de desarrollo en futuras implementaciones.
       - Realicé *revisiones de código* y coordinaciones técnicas con clientes, asegurando estándares de calidad y facilitando la escalabilidad de los proyectos.
-      - Implementé dashboards interactivos con *Tailwind CSS* y *SASS*, optimizando la presentación de datos estadísticos para apoyar la toma de decisiones del cliente y agilizar procesos internos.
       - Contribuí en el desarrollo del servidor levantando vistas, y ajustando viewsets con *Django REST Framework*.
     ],
     en: [
